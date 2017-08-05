@@ -1,0 +1,64 @@
+/*  Additional media queries styles
+-------------------------------------------------- */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	body:after {
+		content: "Handled devices";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 1px solid red;
+		background-color: rgba(255,255,255,0.7);
+		padding: 2em;
+		z-index: 10000;
+	}
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	body:after {
+		content: "Small devices";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 1px solid red;
+		background-color: rgba(255,255,255,0.7);
+		padding: 2em;
+		z-index: 10000;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	body:after {
+		content: "Medium devices";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 1px solid red;
+		background-color: rgba(255,255,255,0.7);
+		padding: 2em;
+		z-index: 10000;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	body:after {
+		content: "Large devices";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 1px solid red;
+		background-color: rgba(255,255,255,0.7);
+		padding: 2em;
+		z-index: 10000;
+	}
+}
